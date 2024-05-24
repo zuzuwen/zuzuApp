@@ -1,6 +1,6 @@
 <html lang="en">
 <style>
-    button {
+    .jap-button {
         color: black;
         border: none;
         border-radius: 3px;
@@ -8,6 +8,69 @@
         width: 100px;
         font-size: 15px;
         font-weight: bold;
+        transition: background-color .5s,
+            color .5s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .jap-button:active {
+        opacity: 0.5;
+    }
+
+    .jap-button:hover {
+        background-color: palevioletred;
+        color: white;
+
+    }
+
+    .eng-button {
+        color: black;
+        border: none;
+        border-radius: 3px;
+        height: 36px;
+        width: 100px;
+        font-size: 15px;
+        font-weight: bold;
+        transition: background-color .5s,
+            color .5s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .eng-button:active {
+        opacity: 0.5;
+    }
+
+    .eng-button:hover {
+        background-color: palevioletred;
+        color: white;
+    }
+
+    .chi-button {
+        color: black;
+        border: none;
+        border-radius: 3px;
+        height: 36px;
+        width: 100px;
+        font-size: 15px;
+        font-weight: bold;
+        transition: background-color .5s,
+            color .5s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .chi-button:active {
+        opacity: 0.5;
+    }
+
+    .chi-button:hover {
+        background-color: palevioletred;
+        color: white;
     }
 </style>
 
@@ -15,18 +78,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>zuzuApp</title>
+    <title>momokokoffeeApp</title>
 </head>
 
 <body>
-    <button> Japanese </button>
-    <button> English </button>
-    <button> Chinese </button>
+    <button class="jap-button"> Japanese </button>
+    <button class="eng-button"> English </button>
+    <button class="chi-button"> Chinese </button>
 
     <h1>Privacy Policy for BodyTempMate</h1>
     <h1>Privacy Policy</h1>
+    <hr>
+    <br>
+    <pre>
 
-    <p>
         Last updated: May 21, 2024
 
         This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your
@@ -36,12 +101,12 @@
         and use of information in accordance with this Privacy Policy. This Privacy Policy has been created with the
         help of the Free Privacy Policy Generator.
 
-        Interpretation and Definitions
-        Interpretation
+        <h2> Interpretation and Definitions </h2>
+        <h2>Interpretation</h2>
         The words of which the initial letter is capitalized have meanings defined under the following conditions. The
         following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
 
-        Definitions
+        <h2> Definitions </h2>
         For the purposes of this Privacy Policy:
 
         Account means a unique account created for You to access our Service or parts of our Service.
@@ -73,8 +138,8 @@
         You means the individual accessing or using the Service, or the company, or other legal entity on behalf of
         which such individual is accessing or using the Service, as applicable.
 
-        Collecting and Using Your Personal Data
-        Types of Data Collected
+        <h1> Collecting and Using Your Personal Data</h1>
+        <h2>Types of Data Collected</h2>
         Personal Data
         While using Our Service, We may ask You to provide Us with certain personally identifiable information that can
         be used to contact or identify You. Personally identifiable information may include, but is not limited to:
@@ -98,7 +163,7 @@
         We may also collect information that Your browser sends whenever You visit our Service or when You access the
         Service by or through a mobile device.
 
-        Use of Your Personal Data
+        <h2>Use of Your Personal Data</h2>
         The Company may use Personal Data for the following purposes:
 
         To provide and maintain our Service, including to monitor the usage of our Service.
@@ -144,7 +209,7 @@
         With other users: when You share personal information or otherwise interact in the public areas with other
         users, such information may be viewed by all users and may be publicly distributed outside.
         With Your consent: We may disclose Your personal information for any other purpose with Your consent.
-        Retention of Your Personal Data
+        <h1>Retention of Your Personal Data</h1>
         The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this
         Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal
         obligations (for example, if we are required to retain your data to comply with applicable laws), resolve
@@ -154,7 +219,7 @@
         shorter period of time, except when this data is used to strengthen the security or to improve the functionality
         of Our Service, or We are legally obligated to retain this data for longer time periods.
 
-        Transfer of Your Personal Data
+        <h2>Transfer of Your Personal Data</h2>
         Your information, including Personal Data, is processed at the Company's operating offices and in any other
         places where the parties involved in the processing are located. It means that this information may be
         transferred to — and maintained on — computers located outside of Your state, province, country or other
@@ -193,7 +258,7 @@
         Other legal requirements
         The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:
 
-        Comply with a legal obligation
+        <h1>Comply with a legal obligation</h1>
         Protect and defend the rights or property of the Company
         Prevent or investigate possible wrongdoing in connection with the Service
         Protect the personal safety of Users of the Service or the public
@@ -203,7 +268,7 @@
         Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means
         to protect Your Personal Data, We cannot guarantee its absolute security.
 
-        Children's Privacy
+        <h1>Children's Privacy</h1>
         Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable
         information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child
         has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data
@@ -213,7 +278,7 @@
         If We need to rely on consent as a legal basis for processing Your information and Your country requires consent
         from a parent, We may require Your parent's consent before We collect and use that information.
 
-        Links to Other Websites
+        <h1>Links to Other Websites</h1>
         Our Service may contain links to other websites that are not operated by Us. If You click on a third party link,
         You will be directed to that third party's site. We strongly advise You to review the Privacy Policy of every
         site You visit.
@@ -221,7 +286,7 @@
         We have no control over and assume no responsibility for the content, privacy policies or practices of any third
         party sites or services.
 
-        Changes to this Privacy Policy
+        <h1>Changes to this Privacy Policy</h1>
         We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy
         Policy on this page.
 
@@ -231,11 +296,16 @@
         You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are
         effective when they are posted on this page.
 
-        Contact Us
+        <h1>Contact Us</h1>
         If you have any questions about this Privacy Policy, You can contact us:
 
-        By visiting this page on our website: https://zuzuwen.github.io/zuzuApp/
-    </p>
+        please contact the Service Provider via email at momokokoffee@gmail.com
+    </pre>
+
+
+
+
+
 
 </body>
 
